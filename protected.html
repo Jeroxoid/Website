@@ -6170,7 +6170,7 @@
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
         if (decryptedHMAC !== encryptedHMAC) {
-            window.location.href = "JayssonSolano.com/wrong.html";
+            window.location.href = "wrong.html";
             return;
         }
 
